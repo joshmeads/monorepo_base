@@ -47,6 +47,8 @@ The monorepo workspaces consist of three sections:
 #### Clone and set upstream for later base updates
   ```bash
   # Shallow Clone
+  npx degit https://github.com/joshmeads/monorepo_base project-name
+  # or
   git clone -–depth 1 https://github.com/joshmeads/monorepo_base.git
 
   # Add original upstream
