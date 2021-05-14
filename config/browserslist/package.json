@@ -1,0 +1,6 @@
+{
+  "name": "@joshmeads/config-browserslist",
+  "version": "1.0.0",
+  "main": "browserslist.js",
+  "license": "MIT"
+}

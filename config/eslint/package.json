@@ -1,0 +1,13 @@
+{
+  "name": "@joshmeads/config-eslint",
+  "version": "1.0.0",
+  "main": "eslint.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@types/babel__core": "^7.1.14",
+    "@types/eslint": "^7.2.10",
+    "eslint": "^7.26.0",
+    "eslint-config-canonical": "^26.2.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@joshmeads/config-prettier",
+  "version": "1.0.0",
+  "main": "prettier.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/prettier": "^2.2.3",
+    "prettier": "^2.3.0"
+  }
+}

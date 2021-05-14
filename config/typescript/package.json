@@ -1,0 +1,12 @@
+{
+  "name": "@joshmeads/config-typescript",
+  "version": "1.0.0",
+  "main": "tsconfig.json",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/snowpack-env": "^2.3.3"
+  }
+}

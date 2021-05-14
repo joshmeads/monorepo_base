@@ -1,0 +1,27 @@
+{
+  "indent": 2,
+  "sortToTop": [
+    "name",
+    "description",
+    "version",
+    "author",
+    "scripts"
+  ],
+  "finalNewLine": true,
+  "required": [
+    "name",
+    "version",
+    "description",
+    "main",
+    "licence"
+  ],
+  "warn": [
+    "author"
+  ],
+  "sortedSubItems": [
+    "scripts",
+    "keywords",
+    "dependencies",
+    "devDependencies"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "@joshmeads/config-typescript",
+  "include": ["src", "types"],
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "lib": ["dom", "esnext", "WebWorker"],
+    "paths": {
+       "*": [".snowpack/types/*"]
+    },
+    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
+  }
+}

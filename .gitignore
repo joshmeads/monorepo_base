@@ -1,0 +1,100 @@
+.snowpack
+
+# # Yarn - PNP & ZeroInstall Enabled
+# .yarn/*
+# !.yarn/cache
+# !.yarn/patches
+# !.yarn/plugins
+# !.yarn/releases
+# !.yarn/sdks
+# !.yarn/versions
+
+# Yarn - PNP Enabled
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Env files
+*.env*
+!*.sample
+
+# Logs
+*.log*
+!*deploy.log
+
+# Secrets
+*.pem
+*id_rsa*
+*.crt
+*.key
+*.csr
+*.cer
+
+# Dev tooling
+.vscode
+chrome-user-data
+*.sublime-project
+*.sublime-workspace
+
+# Outputs
+dist/
+build/
+build2/
+out/
+stats/
+remote-repo/
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+lib-cov
+coverage/
+*.lcov
+.nyc_output
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Caches
+*.tsbuildinfo
+.npm
+.eslintcache
+.cache
+.parcel-cache
+.module-cache
+__benchmarks__
+
+# Output of 'npm pack'
+*.tgz
+
+# Serverless directories
+.serverless/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Tooling outputs
+.next
+.nuxt
+
+# Junk
+.DS_Store
+.clinic
+.idea
+.note
+.josh

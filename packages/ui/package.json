@@ -1,0 +1,49 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@etchteam/storybook-addon-status": "^3.0.1",
+    "@joshmeads/config-eslint": "workspace:config/eslint",
+    "@joshmeads/config-prettier": "workspace:config/prettier",
+    "@joshmeads/config-typescript": "workspace:config/typescript",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/addon-storysource": "^6.2.9",
+    "@storybook/addons": "^6.2.9",
+    "@storybook/api": "^6.2.9",
+    "@storybook/builder-webpack5": "^6.2.9",
+    "@storybook/components": "^6.2.9",
+    "@storybook/core-events": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "@storybook/theming": "^6.2.9",
+    "@svgr/webpack": "^5.5.0",
+    "@types/react": "^17.0.5",
+    "@types/react-is": "^17.0.0",
+    "@types/regenerator-runtime": "^0.13.0",
+    "assert-browserify": "^2.0.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-macros": "^3.1.0",
+    "crypto-browserify": "^3.12.0",
+    "react-is": "^17.0.2",
+    "regenerator-runtime": "^0.13.8",
+    "storybook-addon-performance": "^0.15.2",
+    "storybook-addon-react-docgen": "^1.2.42",
+    "storybook-addon-turbo-build": "^1.0.0-beta.1",
+    "storybook-dark-mode": "^1.0.8",
+    "stream-browserify": "^3.0.0",
+    "webpack": "^5.37.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
