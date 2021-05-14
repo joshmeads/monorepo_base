@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Josh Meads",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/joshmeads/monorepo_base"
+  },
   "private": true,
   "workspaces": [
     "apps/*",
