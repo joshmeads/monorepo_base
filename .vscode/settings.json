@@ -1,0 +1,39 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "files.exclude": {
+    "yarn.lock": true,
+    // ".yarnrc.yml": true,
+    // ".yarn": true,
+    // ".pnp.js": true,
+    // ".prettier*": true,
+    // "prettier*": true,
+    // ".gitignore": true,
+    ".fixpackrc": true,
+    ".eslint*": true,
+    ".editorconfig": true,
+    ".browserslistrc": true,
+    // "{packages,apps}/**/babel.config.js*": true,
+    // "{packages,apps}/**/*eslintrc*": true,
+    // "{packages,apps}/**/*prettier*": true,
+    "**/dist": true,
+    "**/.snowpack": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "stylelint.stylelintPath": ".yarn/sdks/stylelint/lib/index.js"
+}

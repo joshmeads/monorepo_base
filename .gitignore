@@ -34,7 +34,6 @@
 *.cer
 
 # Dev tooling
-.vscode
 chrome-user-data
 *.sublime-project
 *.sublime-workspace
