@@ -31,6 +31,10 @@ module.exports = {
     return options;
   },
   webpackFinal: (config) => {
+    // Remove default SB's svg rule (using file-loader).
+    config.module.rules.find(({ test }) => test.test('.svg')).exclude =
+      /\.svg$/;
+
     config.module.rules.unshift({
       test: /\.svg$/,
       use: ['@svgr/webpack', 'url-loader'],
